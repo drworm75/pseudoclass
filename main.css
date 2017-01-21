@@ -1,0 +1,13 @@
+li {
+	display: inline;
+}
+
+span {
+	display: inline-block;
+	border: 1px dotted blue ;
+	margin: 25px;
+}
+
+.n-child section:nth-of-type(2n) {
+	border: 1px dashed midnightblue;
+}
